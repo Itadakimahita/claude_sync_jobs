@@ -1,0 +1,15 @@
+{
+  "server": "http://100.64.0.1:8787",
+  "token": "тот-же-секрет-что-у-координатора",
+  "name": "laptop",
+  "workdir": "~/.ccd",
+  "slots": 2,
+  "cpu_limit": 85,
+  "poll_s": 5,
+  "max_turns": 40,
+  "timeout_s": 3600,
+  "test_timeout_s": 1800,
+  "permission_mode": "acceptEdits",
+  "allowed_tools": "Read,Edit,Write,Grep,Glob,Bash(npm test:*),Bash(npm run:*),Bash(pytest:*),Bash(git diff:*),Bash(git status:*)",
+  "labels": ["node", "python"]
+}
